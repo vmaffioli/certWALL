@@ -22,7 +22,7 @@ CertWall is a NODE.js HTML Page generator used to display your academic/professi
   - Run Update Certificates in menu options (at this point you'll need to provide some details about your certifications like name, provider, id and url)
   - Commit to your branch 'gh-pages.<your user name>'  and push it
   - Go to your repository on github, on gh-pages.<your user name> branch access Settings>Pages> and set your folder to "./docs"
- ![image](https://user-images.githubusercontent.com/56659378/131198950-37e35d6c-7d39-4984-9025-254493972256.png)
+ ![image](https://user-images.githubusercontent.com/56659378/131596549-2fff1c18-b591-472c-8f9e-56f01ca35f95.png))
 
 WALL root "node certwall" to run without commit your changes
   
