@@ -4,7 +4,7 @@
   "description": "",
   "main": "certwall.js",
   "scripts": {
-    "env": "npm install && cd docs && mkdir certificates && cd .."
+    "env": "npm install && cd docs && mkdir certificates && cd ..",
     "certwall": "node certwall",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
