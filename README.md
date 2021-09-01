@@ -14,21 +14,17 @@ CertWall is a NODE.js HTML Page generator used to display your academic/professi
 ## First time use:
   - <b>You'll need to be logged with yours github's account and able to execute git commands on cmd</b>
   - Fork this project and clone it
-  - Run 'npm run env' to create gh-pages/docs and install dependencies (you can find what is used on package-lock.json)
+  - Create a new branch named 'gh-pages.<your user name>' and use it (git checkout -b gh-pages.<your user name>)
+  - Create a folder named 'certificates' in './docs' folder   ('./docs/certificates')
   - Add the image files of yours certifications to ./docs/certificates folder, try to use easy names on them
-  - Execute this little guy using 'npm run start' project's root
+  - Execute this little guy using 'node certwall' on project's root
   - Run Update Settings in menu options (in the first run you'll need to configure this app providing your GitHub ID and choosing a colour theme)
   - Run Update Certificates in menu options (at this point you'll need to provide some details about your certifications like name, provider, id and url)
-  
-## Publish to your gitHub creating GH-PAGE's Branch
-  - On CertWALL when you execute "npm run certwall", the changes are automatically sended to your remote gh-pages/docs branch
-  - Go to your repository on github, on gh-pages branch access Settings>Pages> and set your folder to "./docs"
+  - Commit to your branch 'gh-pages.<your user name>'  and push it
+  - Go to your repository on github, on gh-pages.<your user name> branch access Settings>Pages> and set your folder to "./docs"
  ![image](https://user-images.githubusercontent.com/56659378/131198950-37e35d6c-7d39-4984-9025-254493972256.png)
 
-
-## Manual usage and commit
-  - create/use a branch named 'gh-pages' to commit your settings and certificates
-  - run on certWALL root "node certwall" to run without commit your changes
+WALL root "node certwall" to run without commit your changes
   
   Here we go!
   For any doubts, see my source code or GH Page branch.
