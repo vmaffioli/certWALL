@@ -24,7 +24,6 @@ CertWall is a NODE.js HTML Page generator used to display your academic/professi
   - Go to your repository on github, on gh-pages.<your user name> branch access Settings>Pages> and set your folder to "./docs"
  ![image](https://user-images.githubusercontent.com/56659378/131596549-2fff1c18-b591-472c-8f9e-56f01ca35f95.png))
 
-WALL root "node certwall" to run without commit your changes
   
   Here we go!
   For any doubts, see my source code or GH Page branch.
